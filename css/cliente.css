@@ -1,0 +1,34 @@
+section#cliente{
+    position: absolute;
+    background-color: rgba(231, 191, 9, 0.705);
+    width: 30%;
+    text-align: left;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+legend.form{
+    text-align: center;
+}
+#img_fundo h1.agenda{
+    position: absolute;
+    margin-left: 62%;
+    color: #df9b08;
+}
+fieldset input{
+    width: 100%;
+    padding: 3px;
+}
+fieldset#sms input{
+    height: 70px;
+    width: 100%;
+}
+fieldset#enviar input{
+    position: relative;
+    margin-left: 80%;
+    width: 18%;
+}
+fieldset#enviar input:hover{
+    background-color: #df9b08;
+    color: #ffff;
+    text-decoration: dashed;
+}

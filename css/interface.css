@@ -1,0 +1,128 @@
+
+
+*body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: arial, sans-serif;
+    background-color: black;
+}
+
+/*Formatação logo*/
+div#logo{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 50px;
+}
+div#logo h1 {
+    padding: 0%;
+    margin-bottom: -2%;
+    border-bottom: 1px solid #df9b08;
+}
+div#logo h1 a{
+    color: #ffff;
+}
+div#logo p{
+    font-size: 137%;
+    padding: 0%;
+    margin-top: -2%;
+    margin-left: 46%;
+}
+
+/*Formatação do cabeçalho*/
+header#cabecalho{
+    background-color: #424141;
+    color: white;
+}
+
+/*Formatação do menu*/
+nav#menu {
+    display: block;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    height: 80px;
+}
+nav#menu ul#menu li, a{
+    display: inline-block;
+    padding: 5px;
+    color: #df9b08;
+}
+ul#_menu li, a{
+    list-style: none;
+    text-decoration: none;
+}
+li.menu a:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: #df9b08;
+}
+
+/*Menu Suspenso*/
+li.menu{
+    display: inline-block;
+    position: relative;
+}
+ul.submenu li{
+    list-style: none;
+    padding: 0px;
+}
+
+ul.submenu li a:hover{
+    background-color: #df9b08;
+    color: white;
+}
+ul.submenu{
+    text-align: left;
+    position: absolute;
+    display: none;
+    margin-left: -40px;
+}
+li.menu:hover ul.submenu{
+    display: block;
+}
+
+/*Formatação da img_fundo*/
+div#img_fundo{
+    background-image: url(../img/martelo3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center 90%;
+    height: 500px;
+}
+
+/*Formatação do rodapé*/
+footer{
+    background-color: #424141;
+}
+div.redesocial{
+    padding: .5%;
+    margin-top: -4.5%;
+    margin-left: 15%;
+    margin-bottom: 0%;
+    height: 10%;
+}
+
+div#redesocial img{
+    margin-left: 2%;
+}
+div#redesocial p{
+    position: absolute;
+    text-align: left;
+    font-size: 14pt;
+    margin-top: 2%;
+    margin-left: -6%;
+    padding-left: 10%;
+    color: #df9b08;
+}
+div#dtoautor{
+    background-color: #a3720ac9;
+}
+div#dtoautor p{
+    text-align: center;
+    margin: 0%;
+    padding: .3%;
+    color: #ffff;
+}

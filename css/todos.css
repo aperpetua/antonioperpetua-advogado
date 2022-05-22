@@ -1,0 +1,52 @@
+section#texto{
+    position: absolute;
+    background-color: rgba(231, 191, 9, 0.705);
+    width: 40%;
+    margin-left: 57%;
+    margin-top: 5%;
+}
+h1#escri, h1#advog{
+    position: absolute;
+    margin-left: 70%;
+    color: #df9b08;
+}
+h1#escri2{
+    position: absolute;
+    margin-left: 60%;
+    color: #df9b08;
+}
+section#texto h2{
+    position: relative;
+    margin-left: 10%;
+    color: black;
+}
+div#p {
+    position: relative;
+    margin-left: 5%;
+    color: black;
+}
+h1#fale{
+    position: absolute;
+    margin-left: 70%;
+    color: #df9b08;
+}
+div#img_fundo section.fale{
+    position: absolute;
+    width: 25%;
+    background-color: rgba(231, 191, 9, 0.705);
+    margin-left: 66%;
+    margin-top: 5%;
+}
+section.fale h2{
+    margin-left: 3%;
+}
+div#p{
+    margin-left: 15%;
+    color: #fff;
+}
+section#texto p{
+    color: #fff;
+    padding: 0% 4% 0% 4%;
+    text-indent: 6%;
+    text-align: justify;
+}
