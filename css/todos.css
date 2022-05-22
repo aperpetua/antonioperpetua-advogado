@@ -1,13 +1,28 @@
-section#texto{
+section#texto, #textoadvo{
     position: absolute;
-    background-color: rgba(231, 191, 9, 0.705);
+    background-color: rgba(231, 190, 8, 0.706);
     width: 40%;
     margin-left: 57%;
     margin-top: 5%;
 }
-h1#escri, h1#advog{
+#textoadvo{
+    width: 40%;
+    margin-left: 45.4%;
+    margin-top: 5%;
+}
+span img{
+    height: 55.6%;
+    margin-left: 86.8%;
+    margin-top: 5%;
+}
+h1#escri{
     position: absolute;
     margin-left: 70%;
+    color: #df9b08;
+}
+h1#advog{
+    position: absolute;
+    margin-left: 60%;
     color: #df9b08;
 }
 h1#escri2{
@@ -44,7 +59,7 @@ div#p{
     margin-left: 15%;
     color: #fff;
 }
-section#texto p{
+section#texto p, #textoadvo p{
     color: #fff;
     padding: 0% 4% 0% 4%;
     text-indent: 6%;
